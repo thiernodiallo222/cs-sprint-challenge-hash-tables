@@ -2,9 +2,23 @@ def intersection(arrays):
     """
     YOUR CODE HERE
     """
-    # Your code here
+    integer_list = {}
+
+    # setup your list
+    result = []
+
+    # single list within the hash table
+    for single_list in arrays:
+        for integer in single_list:
+            if integer != integer_list:
+                integer_list[integer] = 1
+            else:
+                # add the integer to the intersection
+                result.append(integer)
 
     return result
+    # Your code here
+
 
 
 if __name__ == "__main__":
