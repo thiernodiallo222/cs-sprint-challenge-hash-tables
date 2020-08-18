@@ -1,23 +1,49 @@
+# dict ={}
+# def single_list(arr):
+#     for i in range(len(arr)):
+#         dict[i]=arr[i]
+#     return dict 
+
+
 def intersection(arrays):
     """
     YOUR CODE HERE
     """
-    integer_list = {}
-
-    # setup your list
     result = []
-
-    # single list within the hash table
-    for single_list in arrays:
-        for integer in single_list:
-            if integer != integer_list:
-                integer_list[integer] = 1
-            else:
-                # add the integer to the intersection
-                result.append(integer)
+    for array in arrays:
+        for arr in array:
+            result1[arr] = arr
+            if result1[arr] == arr:
+                result.append(arr)
 
     return result
-    # Your code here
+    # dict_arrays={}
+    # for index in range (len(arrays)):
+    #     dict_arrays[i]=arrays[i]
+
+    # first = arrays[0] 
+
+    # for i in 
+        
+
+    # dict2={}
+    # first=arrays[0]
+    # result = []
+    # for i in range(len(arrays)):
+    #     dict2[i]=arrays[i] 
+
+    # for i in range(len(first)):
+    #     for j in range(len(arrays)):
+    #         if first[i] in arrays[j]:
+    #             result.append(first[i])
+    # return result    
+
+
+        
+    
+
+
+
 
 
 
