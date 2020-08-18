@@ -3,13 +3,23 @@ def intersection(arrays):
     """
     YOUR CODE HERE
     """
-    dict_arrays={}
-    for index in range (len(arrays)):
-        dict_arrays[i]=arrays[i]
+    # dict_arrays={}
+    result=[]
+    # for i in range (len(arrays)):
+    #     dict_arrays[i]=arrays[i]
 
-    first = arrays[0] 
+    first = arrays[0]
+    # for j in range (len(first)):
+    #     single[j]=first[j]
 
-    for i in range()
+    for i in range(len(arrays)):
+        if i < len(first):
+            if first in arrays[i]:
+                result.append(first) 
+    return result
+
+
+
         
 
      
